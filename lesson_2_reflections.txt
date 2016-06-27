@@ -1,7 +1,11 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+the repository gets recognized by git and .git meta directory is created.
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+staging area is between the repository and working directory where the files that need to be commited need to added. This helps to make a logical bundle of files as a logical commit when there are more than 1 file.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
